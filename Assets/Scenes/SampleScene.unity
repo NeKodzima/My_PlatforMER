@@ -10505,6 +10505,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1638906621574841354, guid: c44c1ccaec9edcd41b97e098d8b3b440,
         type: 3}
+      propertyPath: Platf.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638906621574841354, guid: c44c1ccaec9edcd41b97e098d8b3b440,
+        type: 3}
+      propertyPath: Down.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638906621574841354, guid: c44c1ccaec9edcd41b97e098d8b3b440,
+        type: 3}
+      propertyPath: StartDown.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638906621574841354, guid: c44c1ccaec9edcd41b97e098d8b3b440,
+        type: 3}
       propertyPath: Animator
       value: 
       objectReference: {fileID: 0}
@@ -10516,6 +10531,11 @@ PrefabInstance:
     - target: {fileID: 1638906621574841354, guid: c44c1ccaec9edcd41b97e098d8b3b440,
         type: 3}
       propertyPath: Platf
+      value: 
+      objectReference: {fileID: 1482099704}
+    - target: {fileID: 1638906621574841354, guid: c44c1ccaec9edcd41b97e098d8b3b440,
+        type: 3}
+      propertyPath: Platf.Array.data[0]
       value: 
       objectReference: {fileID: 1482099704}
     - target: {fileID: 1638906621574841355, guid: c44c1ccaec9edcd41b97e098d8b3b440,
