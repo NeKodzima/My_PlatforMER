@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -745,7 +745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 493998970}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4190,7 +4190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 807801860}
   - component: {fileID: 807801859}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4233,8 +4233,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1108789887
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1bdef1ddb0a465b43a1f9d2e8c8c39fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4255,8 +4255,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807801858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 83.292, y: 3.6098, z: 0}
-  m_LocalScale: {x: 0.99182224, y: 0.092158936, z: 1}
+  m_LocalPosition: {x: 83.292, y: 4.0369, z: 0}
+  m_LocalScale: {x: 0.99182224, y: 0.008672828, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 24
@@ -4637,7 +4637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1003440714}
   - component: {fileID: 1003440713}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4680,8 +4680,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1108789887
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1bdef1ddb0a465b43a1f9d2e8c8c39fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
