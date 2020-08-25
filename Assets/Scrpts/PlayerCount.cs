@@ -19,6 +19,7 @@ public class PlayerCount : MonoBehaviour
     private void Start()
     {
         OnStartCions = coins;
+        OnStartKeys = keys;
         animator.SetBool("IsDying", false);
         HPCount = GameObject.FindGameObjectWithTag("Hptext").GetComponent<Text>();
         CoinCount = GameObject.FindGameObjectWithTag("CoinText").GetComponent<Text>();

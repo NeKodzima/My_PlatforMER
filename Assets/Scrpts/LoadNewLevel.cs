@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class LoadNewLevel : MonoBehaviour
 {
     public int SceneNumber = 0;
-    public ActivateButton activateButton;
+    public ActivateButton[] activateButton;
     public void LoadLevel2()
     {
         SceneNumber = SceneManager.GetActiveScene().buildIndex + 1;
@@ -25,7 +25,12 @@ public class LoadNewLevel : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         PlayerCount.coins = PlayerCount.OnStartCions;
+        PlayerCount.keys = PlayerCount.OnStartKeys;
         PlayerCount.hp = 2;
-        activateButton.Down = activateButton.StartDown;
+        for (int i = 0; i < activateButton.Length; i++)
+        {
+            activateButton[i].Down = activateButton[i].StartDown;
+        }
+        
     }
 }
