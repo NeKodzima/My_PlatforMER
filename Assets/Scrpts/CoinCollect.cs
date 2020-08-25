@@ -9,7 +9,7 @@ public class CoinCollect : MonoBehaviour
         if (other.tag == "Player")
         {
             PlayerCount.coins++;
-            Destroy(gameObject);
+            Destroy(gameObject.transform.parent.gameObject);
 
         }
     }

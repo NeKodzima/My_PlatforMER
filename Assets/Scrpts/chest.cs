@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lock : MonoBehaviour
+public class chest : MonoBehaviour
 {
     public bool CanOpen = false;
+    public GameObject[] drop;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" && PlayerCount.keys > 0)
+        if (other.tag == "Player")
         {
             CanOpen = true;
         }
@@ -25,7 +26,7 @@ public class Lock : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && CanOpen == true)
         {
-            PlayerCount.keys--;
+            Instantiate(drop[Random.Range(0,drop.Length)], gameObject.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
